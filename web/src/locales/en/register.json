@@ -1,0 +1,13 @@
+{
+  "titles": {
+    "main": "Register"
+  },
+  "buttons": {
+    "submit": "Register"
+  },
+  "labels": {
+    "email": "E-mail",
+    "name": "Name",
+    "password": "Password"
+  }
+}

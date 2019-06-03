@@ -1,0 +1,27 @@
+{
+	"buttons": {
+		"logout": "Logout"
+	},
+	"descriptions": {
+		"about-us": "Need help? Contact Dualog Fisknett AS at support@dualog.com or +4792084000. ",
+		"changeLanguage": "Select language",
+		"dark-mode": "Enable / Disable dark mode",
+		"logout": "",
+		"negative": "No",
+		"positive": "Yes",
+		"profildescription": "Here you can edit your profile, add information and verify that everything is correct",
+		"version": ""
+	},
+	"labels": {
+		"email": "E-mail",
+		"name": "Name"
+	},
+	"titles": {
+		"about-us": "About us",
+		"changeLanguage": "Change language",
+		"dark-mode": "Dark mode",
+		"logout": "Log out",
+		"main": "My profile",
+		"version": "Version"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"buttons": {
+		"add-fishinggrounds": "Legg til ny fiskested",
+		"my-messages": "Mine meldinger",
+		"report-catch": "Meld DCA",
+		"report-fishing": "Rapporter inn",
+		"return-journey": "Meld hjemreise (POR)"
+  },
+  "select": "Select...",
+	"negative": {
+		"cancel-message": "Avbryt"
+	},
+	"positive": {
+		"submit": "OK"
+	},
+	"links": {
+		"not-found": "Gå til 404",
+		"register": "Registrer",
+		"back": "Tilbake"
+	},
+	"navigation": {
+		"homepage": "Hjem",
+		"profile": "Profil",
+		"messages": "Meldinger",
+		"trips": "Turer",
+		"preset": "Forhåndsett"
+	},
+	"loading": {
+		"tooltip": "Laster..."
+	},
+	"not-found": {
+		"back-to-main": "Tilbake til hovedside",
+		"go-to": "",
+		"img-alt": "tom side",
+		"text": "siden finnes ikke"
+	},
+	"states": {
+		"offline": "Du er offline"
+	}
+}

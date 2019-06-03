@@ -1,0 +1,40 @@
+{
+  "isOffline": false,
+  "isDarkMode": false,
+  "dialog": {"open": false},
+  "notification": {"open": false},
+  "messages": [],
+  "trips": [],
+  "isLoading": true,
+  "DCAStarted": false,
+  "fishOnBoard": {},
+  "errors": {},
+  "fields": {
+    "departure": null,
+    "PO": null,
+    "expectedFishingStart": "",
+    "DS": "",
+    "OB": null,
+    "KG": null,
+    "CA": null,
+    "expectedFishingSpot": "",
+    "startFishingSpot": "",
+    "endFishingSpot": "",
+    "QI": 1,
+    "AC": "",
+    "GP": 0,
+    "ZO": "",
+    "DU": 0
+  },
+  "custom": {
+    "editing": {},
+    "fishingSpots": [],
+    "ports": [],
+    "fishingGear": [],
+    "activity": [],
+    "species": [],
+    "fishingPermit": [],
+    "ZO": []
+  }
+}
+

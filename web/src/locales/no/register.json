@@ -1,0 +1,13 @@
+{
+  "titles": {
+    "main": "Registrer"
+  },
+  "buttons": {
+    "submit": "Registrer"
+  },
+  "labels": {
+    "email": "E-post",
+    "name": "Navn",
+    "password": "Passord"
+  }
+}

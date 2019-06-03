@@ -1,0 +1,77 @@
+{
+  "links": {
+    "DEP": "Report departure (DEP)",
+    "DCA0": "Start DCA",
+    "DCA0Edit": "Edit DCA start",
+    "DCA": "Register DCA",
+    "POR": "Port call POR",
+    "back": "Back"
+  },
+  "DEP": {
+    "title": "DEP",
+    "submit": "Report departure",
+    "steps": [
+      "Departure port",
+      "Planned fishing area"
+    ]
+  },
+  "DCA0": {
+    "title": "Start DCA",
+    "submit": "Start",
+    "steps": {
+      "0": "Title",
+      "start": "Start",
+      "activity": "Activity",
+      "zone": "Zone",
+      "permit": "Fishing permit"
+    }
+  },
+  "DCA": {
+    "title": "DCA",
+    "submit": "Send DCA",
+    "steps": {
+      "0": "Fishingstart & quota",
+      "location": "Location",
+      "fishing": "Activity, catch and fishing tools",
+      "catch": "Catch"
+    }
+  },
+  "POR": {
+    "title": "POR",
+    "submit": "Report port call",
+    "steps": [
+      "Port",
+      "Fish onboard",
+      "Delivery"
+    ]
+  },
+  "labels": {
+    "DS": "Target fishtype",
+    "AC": "Fishing activity",
+    "PO": "Choose port",
+    "expectedFishingStart": "Estimated start of fishing",
+    "expectedFishingSpot": "Expected fishing spot",
+    "OB": "Fish onboard",
+    "departure": "Departure time",
+    "LA": "Latitude",
+    "LO": "Longitude",
+    "portArrival": "Estimated time of arrival",
+    "LS": "Fish landing",
+    "KG": "Catch for delivery",
+    "QI": "Fishing permit",
+    "ZO": "Fishing zone",
+    "fishingStart": "Start of fishing",
+    "geopoint": {
+      "latitude": "Latitude N→90°, S→-90°",
+      "longitude": "Longitude E→180°, W→-180°"
+    },
+    "startFishingSpot": "Start fishing spot",
+    "endFishingSpot": "End fishing spot",
+    "GS": "Gear specification",
+    "GP": "Gear problems",
+    "GE": "Fishing Gear",
+    "DU": "Duration of activity",
+    "ME": "Smallest mesh size",
+    "CA": "Catch"
+  }
+}

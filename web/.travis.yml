@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+- '8'
+cache:
+  directories:
+  - node_modules
+install:
+- yarn
+- yarn global add codecov
+- yarn global add firebase-tools
+- yarn global add https://github.com/GoogleChromeLabs/lighthousebot
+script:
+- yarn build
+- yarn test:ci
+after_success:
+- bash ./bin/deploy.sh
+- bash ./bin/lighthouse.sh
+notifications:
+  slack:
+    rooms:
+      secure: l4bJBrM2tGZvBKkoTDHxaqOgf49bp5b6jHH+CKL7D0g+p/MblJQ/GJrOmdgCadcEJWnaiTSZPQCQCzRkt9LKp6OU8pTzBQqLigdkzQH+2Zv8jlPwZxQJmiaGxqvIruBZoWQPHhwfecXOomUJEcjH+nTcmwp9j2esfElK1M1jN3TjCL86zSn+AJJGRK5l6hnFW+HCXDn+eWoH7ETpFUlwDRtrEuPTXRndMsvwZ5gka++BTup1ughTe47+Z64yDSTWddc1byqOyqRk7Z6hYSt5PbrgHVib8La/jjPna7hASCAVNk63Z1lBFQyInGeC73ncnHMy7EV3b74KZHnpNKlTlKhVEXCuSYf+7XRQNIYYrQt5mzsNVvJSEbStwtsLFxZfeAJtc4oTgkE08xSulQfF+rOJBm9JotEYrOorEAHgOR7UzAi3+SLl7XL6hx9sM3XLAYeG5M494C7PVlSqQp7wAfBfUVZFrXU5eaGuEf/56vtjoUY/5CIs5dIP8olZ0u59ud6yIIhnY+2lfTs9Dd2WBHCyhmzzdxGTlwlCIoYEU2RGw5PYrKjxhXg/lGl950Mn2M4ukt9SIMHxKB8Xkk1vuutii6qda68CDlC2H0qLJOMEcwr9CKzEv3xH7/XjyyEyDVSFx0RFUM+NHpoTZfV+pGh8TmwxLdcTS4YnCUpwojs=
+    on_success: never
+    on_failure: always
+    on_start: never
+    on_cancel: never
+    on_error: always

@@ -1,0 +1,43 @@
+{
+	"titles": {
+		"main": "Meldinger",
+		"DEP": "avgang",
+		"DCA": "fangst",
+		"POR": "havneanløp",
+		"search": "Søk…",
+		"pending": "Venter"
+	},
+	"tooltips": {
+		"sort": "Sorter",
+		"pending": "Venter på godkjenning (ACK)",
+		"rejected": "Ikke godkjent",
+		"acknowledged": "Godkjent"
+	},
+	"table-head-rows": [
+		{
+			"left": true,
+			"sortable": false,
+			"id": "acknowledged",
+			"label": "Status"
+		},
+		{
+			"left": true,
+			"id": "RN",
+			"label": "Meldingsnummer"
+		},
+		{
+      "left": true,
+			"id": "TM",
+			"label": "Type"
+		},
+		{
+			"id": "created",
+			"label": "????"
+		},
+		{
+			"id": "edit",
+			"label": "Rediger",
+			"sortable": false
+		}
+	]
+}

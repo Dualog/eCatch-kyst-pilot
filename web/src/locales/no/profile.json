@@ -1,0 +1,27 @@
+{
+	"buttons": {
+		"logout": "Logg ut"
+	},
+	"descriptions": {
+		"about-us": "Trenger du hjelp? Kontakt Dualog Fisknett AS på support@dualog.com eller +4792084000.",
+		"changeLanguage": "Velg språk",
+		"dark-mode": "Bytt til / fra nattmodus",
+		"logout": "",
+		"negative": "Nei",
+		"positive": "Ja",
+		"profildescription": "Her kan du redigere profilen din, legge til informasjon og verifisere at alt stemmer",
+		"version": ""
+	},
+	"labels": {
+		"email": "E-post",
+		"name": "Navn"
+	},
+	"titles": {
+		"about-us": "Om oss",
+		"changeLanguage": "Språk",
+		"dark-mode": "Nattmodus",
+		"logout": "Logg ut",
+		"main": "Min profil",
+		"version": "Versjon"
+	}
+}

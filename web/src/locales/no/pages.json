@@ -1,0 +1,25 @@
+{
+	"homepage": {
+		"buttons": {
+			"profile": "Profil",
+			"settings": "Innstillinger"
+		}
+	},
+	"landing": {
+		"blob-img-alt": "blob",
+		"email": "e-post",
+		"forgot-password": "Glemt passord",
+		"login": "logg inn",
+		"password": "passord",
+		"register": "registrer"
+	},
+	"profile": {
+		"buttons": {
+			"logout": "Logg ut"
+		},
+		"labels": {
+			"email": "E-post",
+			"name": "Navn"
+		}
+	}
+}

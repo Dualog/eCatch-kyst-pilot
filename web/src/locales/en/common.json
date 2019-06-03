@@ -1,0 +1,39 @@
+{
+	"buttons": {
+		"add-fishinggrounds": "Add a new fishingspot",
+		"my-messages": "My messages",
+		"report-catch": "Report DCA",
+		"report-fishing": "Send",
+		"return-journey": "Report return journey (POR)"
+	},
+	"negative": {
+		"cancel-message": "Cancel"
+	},
+	"positive": {
+		"submit": "OK"
+	},
+	"links": {
+		"not-found": "Go to 404",
+		"register": "Register",
+		"back": "Back"
+	},
+	"navigation": {
+		"homepage": "Home",
+		"profile": "Profile",
+		"messages": "Messages",
+		"trips": "Trips",
+		"preset": "Preset"
+	},
+	"loading": {
+		"tooltip": "Loading..."
+	},
+	"not-found": {
+		"back-to-main": "Back to the main page",
+		"go-to": "Go to 404",
+		"img-alt": "empty page",
+		"text": "page not found"
+	},
+	"states": {
+		"offline": "You are offline"
+	}
+}

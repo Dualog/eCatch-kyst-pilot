@@ -1,0 +1,44 @@
+{
+	"titles": {
+		"main": "Messages",
+		"DEP": "departure",
+		"DCA": "catch",
+		"POR": "port call",
+		"search": "Search…",
+		"pending": "Pending"
+	},
+	"tooltips": {
+		"sort": "Sort",
+		"pending": "Waiting for acknowledge (ACK)",
+		"rejected": "Rejected",
+		"acknowledged": "Acknowledged"
+	},
+	"table-head-rows": [
+    {
+      "left": true,
+      "id": "RN",
+      "label": "nr.",
+      "padding": "dense"
+    },
+		{
+			"left": true,
+			"sortable": false,
+			"id": "acknowledged",
+			"label": "Status"
+		},
+		{
+      "id": "TM",
+      "left": true,
+			"label": "Type"
+		},
+		{
+			"id": "created",
+			"label": "Created"
+		},
+		{
+			"id": "edit",
+			"label": "",
+			"sortable": false
+		}
+	]
+}
