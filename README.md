@@ -34,6 +34,10 @@ they do. ... An exciting task that will make everyday living
 better for many Norwegians while supporting the important work of the
 Directorate of Fisheries. ...
 
+
+## TODO
+- [ ] Add Lerna to support monorepo - https://github.com/lerna/lerna
+
 ---
 <p align=center>
 Developed at <a href="https://ntnu.edu"><img height="16" src="https://upload.wikimedia.org/wikipedia/en/f/f6/NTNU_logo.svg"/></a>
