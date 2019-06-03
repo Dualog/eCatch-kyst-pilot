@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+- '6'
+cache:
+  directories:
+  - node_modules
+install:
+- yarn global add codecov
+- yarn global add firebase-tools
+- yarn
+- cd functions
+- yarn
+- cd ..
+script:
+- yarn build
+- yarn build:db:rules
+deploy:
+  skip_cleanup: true
+  provider: script
+  script:
+  - bash ./bin/deploy.sh
+notifications:
+  slack:
+    rooms:
+      secure: SRT7N4lqtW3RcYFGh9yXB3hd6DhORUhI/tjE1Sx1VHHuT5c2v/gSD6mcNuaMyiQ2lpK6foThPogBTMclIYqtCqqM6RL21FC0FpUkgnPykUiL5zqavXpfSD21fmJRdNZgSuECt3tLcHFMdkK7wv2rRoM1TEynFR4/lMyLs1aVaXRXbSERRcrcrJGgC31hvuFW6CzrH+HYeMPeaXmoecgMzEMcaMNPbgjQ1TMtU46s2fvcoppK9C6VZoavBOrNcGrRE6M1bGfC98urD09cumQOZ8A0vgVSoJg3RRYMuOWJi1zMZqDAA8RiP8E7cOoJyZd9wOWWKz3T6befN/iYWBXoCp3Uw6tVbW7DyivAUXf7puWQqLXmX901WaExGZF8BNhK+dUS0GBLuz30g439teSv1AtuvmJQdjTH45gykHDr3HZYSaJRQwu/JvFB/pzNvWTipa7KMZ1owNOmf6rkQ8kdjY1/qDhN30qC6B0P1EZQvfds/GP3iFMo2ST/fnzIcXMudNRn33XvhOnat8UPDLJbxUrqBjXJ01see78o2qBgzjoA4rul4AYpndxMXLpMwEdKfJW1nFb5jW9A3pmwR00PO28+R8D49EURHKNkTkZ5GijTPaKBOuPaADi3t48P1w3aeZa1FhZLtkeJHvjFgM6na6GEbqkIMfSj0ZTlPUk3J/s=
+    on_success: never
+    on_failure: always
+    on_start: never
+    on_cancel: never
+    on_error: always
